@@ -13,7 +13,7 @@ on:
   push:
     paths:
       - .github/workflows/**
-  workflow-dispatch:
+  workflow_dispatch:
 
 permissions:
   contents: write
