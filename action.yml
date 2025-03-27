@@ -1,0 +1,26 @@
+name: PURLs with Manifest Submission Action
+description: "Submit some PURLs to the Dependency Submission API with manifest metadata"
+inputs:
+  token:
+    description: "GitHub Personal Access Token (PAT). Defaults to PAT provided by Actions runner."
+    required: false
+    default: ${{ github.token }}
+  manifest-name:
+    description: "The name of the manifest"
+    required: false
+    default: "purls"
+  manifest-path:
+    description: "The path to the manifest file including the file name"
+    required: false
+    default: "purls"
+  purls:
+    description: "The PURLs to submit, one per line"
+    required: true
+    default: "."
+  detector-name:
+    description: "Name of the detector"
+    required: false
+    default: purls-with-manifest-submission-action
+runs:
+  using: "node16"
+  main: "dist/index.js"
