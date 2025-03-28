@@ -55,4 +55,4 @@ npm run package
 
 ## Acknowledgements and Gratitude
 
-Thanks to @hmaurer who created [purls-submission-action](https://github.com/hmaurer/purls-submission-action).  This repo is an extension of that work.
+Thanks to [@hmaurer](https://github.com/hmaurer) who created [purls-submission-action](https://github.com/hmaurer/purls-submission-action).  This repo is an extension of that work.
